@@ -1,7 +1,7 @@
 const taskInput = document.getElementById('taskInput');
 const taskList = document.getElementById('taskList');
 
-// Load tasks from local storage
+
 window.onload = () => {
     taskList.innerHTML = localStorage.getItem('tasks') || '';
     attachEventListeners();
